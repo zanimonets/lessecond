@@ -29,6 +29,8 @@ import static java.util.Arrays.asList;
 import static java.util.stream.Collectors.toList;
 
 public class HtmlDsl {
+    private int x;
+
     public static Article article(Tag... children) {
         return new Article() {
             public String asString() {
