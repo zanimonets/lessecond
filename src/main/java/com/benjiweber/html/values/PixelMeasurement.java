@@ -1,6 +1,8 @@
 package com.benjiweber.html.values;
 
 public class PixelMeasurement {
+    public final int sum = 20;
+
     public final int numberOfPixels;
 
     public PixelMeasurement(int numberOfPixels) {
