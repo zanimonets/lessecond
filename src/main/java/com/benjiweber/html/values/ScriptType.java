@@ -5,6 +5,7 @@ public enum ScriptType {
 
     public String name;
     public String nameA;
+    public String nameB;
 
     ScriptType(String name) {
         this.name = name;
