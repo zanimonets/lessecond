@@ -31,6 +31,7 @@ import static java.util.stream.Collectors.toList;
 public class HtmlDsl {
     private int x;
     private int y;
+    private int z;
 
     public static Article article(Tag... children) {
         return new Article() {
