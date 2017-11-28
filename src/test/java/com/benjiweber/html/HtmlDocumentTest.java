@@ -201,4 +201,10 @@ public class HtmlDocumentTest {
     @Test
     public void baseActTestTwo() {}
 
+    @Test
+    public void advancedActTestOne() {}
+
+    @Test
+    public void advancedActTestTwo() {}
+
    }
