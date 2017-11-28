@@ -4,6 +4,7 @@ public enum ScriptType {
     javascript("text/javascript");
 
     public String name;
+    public String nameA;
 
     ScriptType(String name) {
         this.name = name;
